@@ -36,8 +36,8 @@ Because it shares genres animation, fantasy, children, adventure, comedy, and ha
 Because it shares genres animation, fantasy, children, adventure, comedy, and users with similar preferences also liked it.
 
 How It Works
-	1.	Collaborative Filtering: Using SVD, the system learns user preferences by analyzing ratings patterns.
-	2.	Content-Based Filtering: Each movie’s genre and tags are vectorized and compared to others using cosine similarity.
-	3.	Hybrid Scoring: A weighted score merges collaborative and content-based scores, providing ranked recommendations.
-	4.	Explainability: For each recommendation, genres and themes in common with the favorite movie are highlighted, along with insights from collaborative filtering.
+1. Collaborative Filtering: Using SVD, the system learns user preferences by analyzing ratings patterns.
+2. Content-Based Filtering: Each movie’s genre and tags are vectorized and compared to others using cosine similarity.
+3. Hybrid Scoring: A weighted score merges collaborative and content-based scores, providing ranked recommendations.
+4. Explainability: For each recommendation, genres and themes in common with the favorite movie are highlighted, along with insights from collaborative filtering.
 
