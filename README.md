@@ -14,8 +14,7 @@ Features
 
 Dataset
 
-The MovieLens Small dataset contains:
-	•	100,000 ratings and 3,600 tags for 9,000 movies rated by 600 users
+The MovieLens Small dataset contains: 100,000 ratings and 3,600 tags for 9,000 movies rated by 600 users
 
 This dataset provides both user interaction data (ratings) and metadata (genres, tags), ideal for a hybrid recommendation system.
 
@@ -35,3 +34,10 @@ Because it shares genres animation, fantasy, children, adventure, comedy, and us
 Because it shares genres animation, fantasy, children, adventure, comedy, and has similar themes like pixar, and users with similar preferences also liked it.
 	3.	The Emperor’s New Groove (2000)
 Because it shares genres animation, fantasy, children, adventure, comedy, and users with similar preferences also liked it.
+
+How It Works
+	1.	Collaborative Filtering: Using SVD, the system learns user preferences by analyzing ratings patterns.
+	2.	Content-Based Filtering: Each movie’s genre and tags are vectorized and compared to others using cosine similarity.
+	3.	Hybrid Scoring: A weighted score merges collaborative and content-based scores, providing ranked recommendations.
+	4.	Explainability: For each recommendation, genres and themes in common with the favorite movie are highlighted, along with insights from collaborative filtering.
+
